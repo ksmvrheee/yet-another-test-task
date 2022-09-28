@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ```
 django-admin startproject <имя_проекта>
 ```
-Потом нужно зарегистрировать Django Rest Framework и данное приложение в проекте Django. Для этого в settings.py проекта в коллекцию INSTALLED_APPS нужно добавить слудующее:
+Потом нужно зарегистрировать Django Rest Framework и данное приложение в проекте Django. Для этого в settings.py проекта в коллекцию INSTALLED_APPS нужно добавить следующее:
 ```
 INSTALLED_APPS = [
     ...
